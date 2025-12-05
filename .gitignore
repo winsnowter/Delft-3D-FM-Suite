@@ -1,0 +1,29 @@
+# Delft3D-FM output files (too large)
+*.cache
+*_his.nc
+*_map.nc
+*_rst.nc
+DFM_OUTPUT_*/
+output/*.nc
+
+# Partition files (can be regenerated)
+HK_grid_0*_net.nc
+HK-DFM11_0*.mdu
+HK-DFM11_0*.cache
+DFM_interpreted_*.nc
+
+# Diagnostic files
+*.dia
+unstruc.dia
+
+# Temporary files
+*.tmp
+*.bak
+merge_filelist.txt
+
+# Windows system files
+Thumbs.db
+Desktop.ini
+
+# Keep these important files
+!HK_grid_net.nc
